@@ -1,0 +1,117 @@
+.about_container1{
+    /* background: #3e3e3ebb; */
+    background: transparent;
+    padding: 1.2rem;
+    /* padding-bottom: 20px; */
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid #3e3e3ebb;
+    margin-bottom: 20px;
+}
+.about_container1 h2{
+    color: white;
+}
+.about_container1 p{
+  /* color:   rgb(32, 31, 31); */
+  color: rgb(145, 142, 142);
+  margin-top: 20px;
+}
+.about_container{
+    padding: 70px;
+}
+@media screen and (max-width:768px) {
+    .about_container .h11{
+        height: 35px;
+        /* width: auto; */
+        margin-left: 50.1%;
+        border-left: 3px solid rgb(249, 244, 244);
+        margin-top: 30px;
+    }
+    
+   .about_container .h12{
+        height: 35px;
+        margin-left: 48.6%;
+        margin-top: -20px;
+        border-left: 3px solid rgb(248, 2, 2);
+    }
+    
+    .about_container .h13{
+        height: 35px;
+        margin-left: 51.9%;
+        margin-top: -34.5px;
+    
+        border-left: 3px solid red;
+    }
+}
+@media screen and (max-width:600px) {
+    .about_container .h11{
+        height: 35px;
+        /* width: auto; */
+        margin-left: 50.1%;
+        border-left: 3px solid rgb(249, 244, 244);
+        margin-top: 30px;
+    }
+    
+   .about_container .h12{
+        height: 35px;
+        margin-left: 47.9%;
+        margin-top: -20px;
+        border-left: 3px solid rgb(248, 2, 2);
+    }
+    
+    .about_container .h13{
+        height: 35px;
+        margin-left: 52.5%;
+        margin-top: -34.5px;
+    
+        border-left: 3px solid red;
+    }
+}
+@media screen and (max-width:460px) {
+    .about_container .h11{
+        height: 35px;
+        /* width: auto; */
+        margin-left: 50.1%;
+        border-left: 3px solid rgb(249, 244, 244);
+        margin-top: 30px;
+    }
+    
+   .about_container .h12{
+        height: 35px;
+        margin-left: 47.9%;
+        margin-top: -20px;
+        border-left: 3px solid rgb(248, 2, 2);
+    }
+    
+    .about_container .h13{
+        height: 35px;
+        margin-left: 52.5%;
+        margin-top: -34.5px;
+    
+        border-left: 3px solid red;
+    }
+}
+@media screen and (max-width:300px) {
+    .about_container .h11{
+        height: 35px;
+        /* width: auto; */
+        margin-left: 50.1%;
+        border-left: 3px solid rgb(249, 244, 244);
+        margin-top: 30px;
+    }
+    
+   .about_container .h12{
+        height: 35px;
+        margin-left: 45%;
+        margin-top: -20px;
+        border-left: 3px solid rgb(248, 2, 2);
+    }
+    
+    .about_container .h13{
+        height: 35px;
+        margin-left: 55.5%;
+        margin-top: -34.5px;
+    
+        border-left: 3px solid red;
+    }
+}

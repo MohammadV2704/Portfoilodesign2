@@ -1,0 +1,89 @@
+
+/* Sectionn 1 Education */
+.col header.title span {
+    color: red;
+}
+
+.col header.title {
+    color: rgb(252, 250, 250);
+    padding: 0px 0px 20px 30px;
+    margin-right: 130px;
+    align-items: center;
+
+}
+
+.Container {
+    margin-left: 8%;
+    padding-bottom: 7%;
+}
+
+.col .contents {
+    padding: 0px 30px;
+    border-left: 2px solid red;
+    padding-right: 20px;
+}
+
+.col .contents .box {
+    position: relative;
+    padding: 1.2rem;
+    width: 90%;
+    border-radius: 15px;
+    border: 1px solid red;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+}
+
+.col .contents .box:hover {
+    box-shadow: 0px 3px 12px 0px #3d3c3c;
+    border: 1px solid transparent;
+}
+
+.col .contents .box::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 22px);
+    top: 0;
+    background-color: red;
+    border: 2px solid red;
+}
+
+.col .contents .box h4 {
+    color: white;
+    border: 1px solid red;
+    width: 25%;
+    border-radius: 15px;
+}
+
+.col .contents .box h5 {
+    color: red;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.col .contents .box h2 {
+    color: white;
+    margin-top: 10px;
+}
+
+.col .contents .box p {
+    color: white;
+    margin-top: 10px;
+}
+
+/* Section 2 Work Expe. */
+@media screen and (max-width:680px){
+    .col .contents .box h4 {
+        width: 100%;   
+    }
+    
+}
+@media screen and (max-width:390px){
+    .col .contents .box h4 {
+        width:100%;   
+    }
+}

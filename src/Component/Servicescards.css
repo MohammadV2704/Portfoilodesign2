@@ -1,0 +1,88 @@
+.container {
+    background: #222;
+    padding: 5px 9%;
+    padding-bottom: 20px;
+}
+
+.container h1 {
+    text-align: center;
+    padding-top:5%;
+    color: rgb(252, 249, 249);
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin-bottom: 5%;
+}
+.container .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.container .box-container .box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    border: 1px solid red;
+    background: transparent;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.container .box-container .box img {
+    height: 80px;
+    size: 20px;
+}
+
+.container .box-container .box h3 {
+    color: white;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.container .box-container .box p {
+    color: #3b3b3b;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.container .box-container .box .btn {
+    margin-right: 1.4vw;
+    padding: 0.6rem;
+    margin-top: 100px;
+    background: #dd1515bb;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 0.5rem #dd1515bb;
+    font-size:1vw;
+    color: rgb(253, 250, 250);
+    text-decoration: none;
+    letter-spacing: .1rem;
+    font-weight: 500;
+    border: .1rem solid rgb(244, 3, 3);
+}
+
+.container .box-container .box:hover {
+    border-color: red;
+    color: white;
+    transform: scale(1.03);
+}
+
+.container .box-container .btn:hover {
+    transform: scale(1.03);
+}
+
+
+@media screen and (max-width:600px) {
+    .container .box-container .box .btn {
+        font-size:2vw;
+        padding: 12px;
+    }
+}
+@media screen and (max-width:768px) {
+    .container {
+        padding: 20px;
+    }
+    .container .box-container .box .btn {
+        font-size: 2.3vw;
+    }
+}
